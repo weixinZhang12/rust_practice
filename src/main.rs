@@ -1,4 +1,4 @@
-use leetcode::l20;
+use leetcode::  l20;
 
 mod leetcode{
      pub  mod l7;

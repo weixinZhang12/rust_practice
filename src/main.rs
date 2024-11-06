@@ -1,4 +1,4 @@
-use leetcode::{l20, l26, l28, l283, l633, l7};
+use leetcode::{l20, l26, l28, l283, l58, l633, l7};
 
 mod leetcode {
     pub mod l1;
@@ -13,10 +13,11 @@ mod leetcode {
     pub mod l7;
     pub mod l9;
     pub mod l28;
+    pub mod l58;
 }
 fn main() {
    
     let mut array = vec![0, 1, 0, 1, 12];
-    let result = l28::str_str("leetcode".to_string(), "leeto".to_string());
+    let result = l58::length_of_last_word("a".to_string());
     println!("{:?}", result);
 }

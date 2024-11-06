@@ -9,6 +9,7 @@ pub fn longest_comon_prefix(strs: Vec<String>) -> String {
                return string;
            }
         }
+        // 通过添加到string中
            string=first_word[0..=current_index].to_string();
     }
     return string;

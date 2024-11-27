@@ -25,6 +25,7 @@ mod leetcode {
 fn main() {
    
     let mut array = vec![9,9,9];
-    let result = l35::search_insert(vec![1,4,8,8,10], 4);
+    let result = l35::search_insert(vec![1,3,5,6], 7
+    );
     println!("{:?}", result);
 }

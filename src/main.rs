@@ -1,4 +1,4 @@
-use leetcode::{l136, l168, l35, l67};
+use leetcode::{l20, l26, l268, l441, l70};
 
 mod leetcode {
     pub mod l1;
@@ -21,11 +21,18 @@ mod leetcode {
     pub mod l136;
     pub mod l168;
     pub mod l35;
+    pub mod l88;
+    pub mod l118;
+    pub mod l217;
+    pub mod l290;
+    pub mod l414;
+    pub mod l441;
+    pub mod l70;
+    pub mod l268;
 }
 fn main() {
    
-    let mut array = vec![9,9,9];
-    let result = l35::search_insert(vec![1,3,5,6], 7
-    );
+    let mut array = vec![0,1];
+    let result =l268::missing_number(array);
     println!("{:?}", result);
 }

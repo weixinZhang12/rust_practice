@@ -2,7 +2,7 @@
 
 pub fn convert_to_title(column_number: i32) -> String {
     let mut column_number = column_number;
-    let mut shang = -1;
+    let shang = -1;
     let mut yushu = 0;
     let mut yushu_arr: Vec<i32> = vec![];
     // 余数为零的情况代表进位

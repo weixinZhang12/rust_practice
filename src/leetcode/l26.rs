@@ -1,4 +1,3 @@
-
 pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
     let mut unique_array = Vec::new();
     for  item in nums.iter() {

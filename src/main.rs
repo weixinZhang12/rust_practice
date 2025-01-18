@@ -1,4 +1,4 @@
-use leetcode::{l20, l26, l268, l441, l70};
+use leetcode::{l20, l258, l26, l268, l441, l69, l70, l728};
 
 mod leetcode {
     pub mod l1;
@@ -22,6 +22,7 @@ mod leetcode {
     pub mod l168;
     pub mod l35;
     pub mod l88;
+    pub mod l83;
     pub mod l118;
     pub mod l217;
     pub mod l290;
@@ -29,10 +30,12 @@ mod leetcode {
     pub mod l441;
     pub mod l70;
     pub mod l268;
+    pub mod l258;
+    pub mod l728;
 }
 fn main() {
    
     let mut array = vec![0,1];
-    let result =l268::missing_number(array);
+    let result =l69::my_sqrt(2147483646);
     println!("{:?}", result);
 }

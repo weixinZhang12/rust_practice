@@ -13,5 +13,5 @@ pub fn length_of_last_word(s: String) -> i32 {
         }
         index -= 1;
     }
-    return sum;
+    sum
 }

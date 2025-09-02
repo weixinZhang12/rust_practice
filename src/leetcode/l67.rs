@@ -38,7 +38,7 @@ pub fn add_binary(a: String, b: String) -> String {
         v.push(sum);
     }
     v.reverse();
-    let mut s = v.iter().map(|n| n.to_string()).collect();
+    let s = v.iter().map(|n| n.to_string()).collect();
     s
     // v.to_string()
 }

@@ -1,4 +1,9 @@
-use leetcode::{l20, l258, l26, l268, l441, l69, l70, l728};
+
+#![allow(dead_code)]
+#![allow(unused_variables)]
+
+
+use crate::leetcode::{l171, l389};
 
 mod leetcode {
     pub mod l1;
@@ -32,10 +37,14 @@ mod leetcode {
     pub mod l268;
     pub mod l258;
     pub mod l728;
+    pub mod l709;
+    pub mod l125;
+    pub mod l171;
+    pub mod l344;
+    pub mod l389;
 }
+
 fn main() {
-   
-    let mut array = vec![0,1];
-    let result =l69::my_sqrt(2147483646);
+    let result =l389::find_the_difference("ab".to_string(),"acb".to_string());
     println!("{:?}", result);
 }

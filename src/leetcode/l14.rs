@@ -1,6 +1,6 @@
 pub fn longest_comon_prefix(strs: Vec<String>) -> String {
     let mut string = String::new();
-    let length=strs.len();
+    let _length=strs.len();
     let first_word=&strs[0];
     // index为当前正在匹配的索引
     for current_index in 0..first_word.len() {
@@ -12,6 +12,5 @@ pub fn longest_comon_prefix(strs: Vec<String>) -> String {
         // 通过添加到string中
            string=first_word[0..=current_index].to_string();
     }
-    return string;
-    /* `String` value */
+    string
 }

@@ -1,6 +1,6 @@
 pub fn generate(num_rows: i32) -> Vec<Vec<i32>> {
     let mut v = Vec::<Vec<i32>>::new();
-    for i in 0..num_rows {
+    for _i in 0..num_rows {
         v.push(vec![1]);
     }
     if v.len()>=2 {
